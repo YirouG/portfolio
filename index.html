@@ -5,43 +5,219 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/38ddd16b1e.js" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/38ddd16b1e.js" crossorigin="anonymous"></script>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init("sMsYu4hooFIA74dIV");
+            })();
+         </script>
+      
+        </script>
         <title>Yirou Guo Portfolio</title>
         <meta charset="UTF-8"/>
     </head>
     <body>
         <header>
             <nav>
-                <div>LOGO</div>
-                <ul>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                <img class="logo" alt="mylogo" src="src/images/newlogo.png" />
+                <ul id="nav-list">
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
             <div class="hero-area">
                 <div class="hero-text">
                 <h1>Yirou Guo</h1>
-                <p>Full-stack developer</p>
+                <p>Website developer</p>
                 <div class="button">
-                    About me
+                    <a href="#about-me">About Me</a>
                 </div>
              </div>
              <div class="socials">
                 
-                <div>linkdlin</div>
-                <div>github</div>
-                <div>twitter</div>
-
+                <div><a href="https://www.linkedin.com/in/yirou-guo-979274235/"class="social"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ffffff" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                </div>
+                <div><a href="https://github.com/YirouG" class="social"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ffffff" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg></a>
+                </div>
+                <div><a href="https://twitter.com" class="social"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ffffff" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
+                </div>
              </div>
             </div>
             
         </header>
-        <section ></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <footer></footer>
 
+        
+        <div class="big-background">
+            <section class="subsection" id="about-me">
+                <div class="information">
+                    <h2>About Me</h2>
+                
+                    <p>Hi, my name is Yirou Guo and I am a junior web developer currently completing my master's degree in digital humanities. I have a strong foundation in both technology and the humanities, which allows me to approach web development projects with a unique perspective and an eye for design. I'm skilled in HTML, CSS, JavaScript, Ruby and Python and have experience using content management systems like WordPress and Wix.</p>
+                </div>
+            </section class="subsection">
+    
+          
+               
+                <div class="project-container">
+                    <div class="projects-title"  id="projects">
+                        <h2>Projects</h2>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div >
+            
+                            <p class="project-title">Website redesign project for a local fencing club</h3>
+                        </div>
+    
+                        <div class="project-content">
+                             <div class="before">
+                                <div class="image-container">
+                                    <img src="src/images/efc.png" alt="before-efc" class="project-preview">
+                                    <a href="https://www.edmontonfencing.com/"class="projlink">View Original</a>
+                            </div>
+                                <p class="subtext"><a href="https://www.edmontonfencing.com/"class="projlink">View Original</a><br/>
+                                    Confusing Tab logic<br/>
+                                    Poor interactive experience<br/>
+                                    Hard to navigate<br/>
+                                    Autoplay all videos on home page<br/>
+                                    Unclickable media icons
+                                </p>
+                            </div>
+                        <hr/>
+                        <div class="after">
+                            <img src="src/images/fencingsite.png" alt="after-efc" class="project-preview">
+                            <p class="subtext"><a href="https://yirou0.wixsite.com/fencingclub" class="projlink">View Redesign</a><br/>
+                            Reorganized tabs and page content<br/>
+                            Improved interactive elements<br/>
+                            Responsive design<br/>
+                            Improved readability<br/>
+                            Emphasis on important information<br/></p>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div >
+            
+                            <p class="project-title">One page portfolio for a web developer</h3>
+                        </div>
+                        <div class="project-content2">
+                            <div class="quiz-left">
+                                <img src="https://github.com/YirouG/portfolio/blob/main/images/port.png?raw=true" alt="Quiz" class="project-leftview">
+                                <div class="view-links">
+                                <a href="#about-me">Live View</a>
+                                <a href="https://github.com/YirouG/portfolio"class="projlink">View Code</a>
+                                </div>
+                            </div>
+                            <div class="quizright">
+                                <p class="subtext">
+                                Skills Used:<br/>
+                                HTML<br/>
+                                CSS<br/>
+                                JavaScript<br/>
+                                
+                                
+                                </p>
+                        </div>
+                        </div>
+                    </div>
+              
+                    <div class="project-card">
+                        <div >
+            
+                            <p class="project-title">Clickhole style quiz</h3>
+                        </div>
+                        <div class="project-content2">
+                            <div class="quiz-left">
+                                <img src="https://github.com/YirouG/portfolio/blob/main/images/clickhole.PNG?raw=true" alt="Quiz" class="project-leftview">
+                                <div class="view-links">
+                                <a href="https://steady-froyo-848d96.netlify.app/">Live View</a>
+                                <a href="https://github.com/YirouG/clickhole-style-quiz"class="projlink">View Code</a>
+                                </div>
+                            </div>
+                            <div class="quizright">
+                                <p class="subtext">
+                                Skills Used:<br/>
+                                HTML<br/>
+                                CSS<br/>
+                                JavaScript<br/>
+                                React<br/>
+                                
+                                </p>
+                        </div>
+                        </div>
+                    </div>
+                     <div class="project-card">
+            
+                            <p class="project-title">Python Projects</h3>
+                        
+                        <div class="project-content">
+                            <div class="pypro">
+                                <div class="proj-title">Interactive Mapping</div>
+                                
+                                <img src="https://raw.githubusercontent.com/YirouG/portfolio/main/images/mapdh.PNG" alt="pygis" class="pyimg">
+                                
+                                <div class="view-links">
+                                    <a href="https://prismatic-dango-73f0c1.netlify.app/"class="projlink">Live View</a>
+                                    <a href="https://github.com/YirouG/DHGIS_map" class="projlink">View Code</a>
+                                </div>
+                               
+                            </div>
+                            <div class="pypro">
+                                <div class="proj-title">Text Adventure</div>
+                                
+                                <img src="https://raw.githubusercontent.com/YirouG/portfolio/main/images/textgame.PNG" alt="text-game" class="pyimg">
+                                <div class="view-links">
+                                
+                                    <a href="https://github.com/YirouG/Cat-game"class="projlink">View Code</a>
+                                </div>
+                            </div>
+                            <div class="pypro">
+                                <div class="proj-title">Data Analysis</div>
+                                
+                                <img src="https://raw.githubusercontent.com/YirouG/portfolio/main/images/pandasan.PNG" alt="pandas" class="pyimg">
+                                <div class="view-links">
+                                   
+                                    <a href="https://github.com/YirouG/DID_analysis"class="projlink">View Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                   </div>
+                   <footer id="contact">
+                    <h2>
+                        Contact Me
+                    </h2>
+                    <p>Email: gyr.work@outlook.com</p>
+                    <!-- <div class=contact-form>
+                        <form onsubmit="sendEmail(); reset(); return false;"  class="contact" action="" method="post">
+                        <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                        <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                        <textarea name="Your Message" required></textarea>
+                        <input type="submit" name="submit" class="send-btn" value="send">
+        
+                    </form>
+        
+                </div>
+                <div class="alert-success">
+                    <span>Message Sent! Thank you for contacting us.</span>
+                </div>
+        
+                <div class="alert-error">
+                    <span>Sorry, something went wrong! Please try again.</span>
+                </div> -->
+                </footer>
+            </div>
+            
+       
+        
         <script src="src/app.js"></script>
+       
     </body>
 </html>
